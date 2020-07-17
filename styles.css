@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+row {
+    display: flex;
+    border-right: 1px solid black;
+    width: 400px;
+    height: 100px;
+    justify-content: stretch;
+}
+
+button {
+    display: inline-block;
+    text-decoration: none;
+    background: lightgray;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0rem;
+    margin: 0;
+    border: 1px solid black;
+    font-size: 2em;
+    
+}
+
+button:hover {
+    background-color: seashell;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: slategrey;
+    outline: none;
+}
+
+.digit {
+    width: 25%;
+}
+
+.function {
+    width: 25%;
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.function:hover {
+    background-color: lightsalmon;
+}
+
+.function:active {
+    background-color: orangered;
+}
+
+.big {
+    width: 50%;
+}
+
+.huge {
+    width: 75%
+}
+
+.answer-screen {
+    background-color: black;
+    display: flex;
+    width: 400px;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.answer {
+    color: white;
+    font-family: sans-serif;
+    font-size: 3em;
+    padding-right: 5px;
+}
